@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Page = () => {
-    return (
-        <p className="text-3xl text-indigo-500">Coin pulse</p>
-    )
+const page = () => {
+  return (
+    <div>
+      
+    </div>
+  )
 }
-export default Page
+
+export default page
