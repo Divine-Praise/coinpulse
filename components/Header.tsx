@@ -1,10 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import Image from "next/image";
 import { usePathname } from 'next/navigation';
 import {cn} from '@/lib/utils';
-import { PathnameContext } from 'next/dist/shared/lib/hooks-client-context.shared-runtime';
 
 const Header = () => {
   const pathname = usePathname();
@@ -12,7 +10,7 @@ const Header = () => {
     <header>
       <div className="main-container inner">
         <Link href="/">
-          <img src="logo.svg" alt="CoinPulse logo" width={132} height={40}/>
+          <img src="/logo.svg" alt="CoinPulse logo" width={132} height={40}/>
         </Link>
 
         <nav>
